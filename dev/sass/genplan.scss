@@ -1,0 +1,18 @@
+.genplan {
+    margin: auto;
+    max-height: calc(100vh - 215px);
+    overflow: hidden;
+}
+
+.build-item {
+    fill: #05FFFF00;
+    fill-opacity: 0.3;
+    stroke: #05FFFF00;
+    stroke-width: 3;
+    transition: .1s;
+
+    &:hover {
+        fill: #05FFFF;
+        stroke: #05FFFF;
+    }
+}

@@ -1,7 +1,22 @@
-footer{
-    height: 100px;
-    background: $secondary-color;
+footer {
     margin-top: auto;
+    background-color: $color-2;
+}
+
+.information-list {
+    display: flex;
+    padding: 24px 0;
+    gap: 12px;
+}
+
+.information-item {
+    width: 100%;
+    border: 1px solid;
+    padding: 12px;
+    list-style: none;
+    div {
+        color: $color-1;
+    }
 }
 
  
