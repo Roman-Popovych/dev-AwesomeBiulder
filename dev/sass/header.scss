@@ -15,5 +15,16 @@ header {
 	font-size: 22px;
 }
 .nav-item {
-	padding: 12px 24px;
+	text-align: center;
+	padding: 17px 24px;
+	text-decoration: none;
+	color: $color-accent;
+	&:hover {
+		color: $color-hover;
+		background: #6c98a5;
+	}	
+	&:active {
+		color: $color-hover;
+		background: #4b6972;
+	}
 }

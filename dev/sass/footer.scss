@@ -15,7 +15,8 @@ footer {
     padding: 12px;
     list-style: none;
     div {
-        color: $color-1;
+        color: $color-hover;
+        text-transform: capitalize;
     }
 }
 

@@ -1,0 +1,68 @@
+$flat-stroke:#05FF00;
+$flat-fill:#04ff006e;
+$flat-active-stroke: #11cc00fd;
+$flat-active-fill: #04d4006e;
+$flat-action: #80D34E;
+$flat-booking: #6B68FF;
+$flat-sold: #D34E4E;
+$flat-free: #00DEFC;
+
+
+.floor-plan {
+    fill: none;
+}
+
+.flat {
+    &.active {
+        .flat-border {
+            stroke: $flat-active-stroke;
+            fill: $flat-active-fill;   
+        }
+    }
+
+    &.action {
+        .flat-number-overlay {
+            fill: $flat-action;
+        }
+    }
+    
+    &.booking {
+        .flat-number-overlay {
+            fill: $flat-booking;
+        }
+    }
+    
+    &.sold {
+        .flat-number-overlay {
+            fill: $flat-sold;
+        }
+    }
+}
+
+.flat-border {
+    stroke: #04ff0000;;
+    stroke-width: 3px;
+    fill: #04ff0000;
+    cursor: pointer;
+    &:hover {
+        stroke: #05FF00;
+        fill: $flat-fill;
+    }
+}
+
+.flat-status-overlay {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.flat-number-overlay {
+    fill: $flat-free;
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.flat-number-text {
+    fill: #000;
+    font-weight: 600;
+}

@@ -1,4 +1,6 @@
-.genplan {
+.genplan,
+.build-item-container,
+.floor-container {
     margin: auto;
     max-height: calc(100vh - 215px);
     overflow: hidden;
@@ -14,5 +16,12 @@
     &:hover {
         fill: #05FFFF;
         stroke: #05FFFF;
+    }
+
+    &.build-sold {
+        &:hover {
+            fill: #dd5d3c;
+            stroke: #dd5d3c;
+        }
     }
 }

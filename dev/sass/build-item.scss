@@ -1,0 +1,21 @@
+// .build-item-contaienr {
+
+// }
+
+.floor-item {
+    fill: #05FFFF00;
+    stroke: #05FFFF00;
+    stroke-width: 5;
+
+    &:hover {
+        fill: #05ffff6b;
+        stroke: #05FFFF;
+    }
+
+    &.floor-sold {
+        &:hover {
+        fill: #dd5d3c6b;
+        stroke: #dd5d3c;           
+        }
+    }
+}
